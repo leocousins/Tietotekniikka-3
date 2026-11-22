@@ -12,8 +12,23 @@ Smart Plant Monitor tarjoaa selkeän selaimessa toimivan hallintanäkymän, joka
 ## 3. Vaatimukset ja hyväksymiskriteerit
 | Vaatimus | Hyväksymiskriteeri |
 | :--- | :--- |
-| **V1: Sensoridatan simulointi** | Järjestelmä generoi 7 päivän tuntikohtaisen datan (3 kasvia × 168 h = 504 riviä) CSV-tiedostoon sisältäen hallitun virheprosentin[cite: 4, 5]. |
+| **V1: Sensoridatan simulointi** | Järjestelmä generoi 7 päivän tuntikohtaisen datan (3 kasvia × 168 h = 504 riviä) CSV-tiedostoon sisältäen hallitun virheprosentin. |
 | **V2: Datan esikäsittely** | Järjestelmä lataa raakadatan ja puhdistaa sensorivirheet ennen analyysiä. |
-| **V3: Reaaliaikainen tilanäyttö** | Käyttöliittymä näyttää jokaiselle kasville tilan (*OK* / *ALERT*), kosteuden (%), valoisuuden (lux) ja ajan edellisestä kastelusta[cite: 9]. |
-| **V4: Säädettävät hälytysrajat** | Käyttäjä voi säätää kasvien kosteusrajoja (5 % – 50 %) sivupalkin liukusäätimillä, ja tilat päivittyvät dynaamisesti[cite: 6, 9]. |
+| **V3: Reaaliaikainen tilanäyttö** | Käyttöliittymä näyttää jokaiselle kasville tilan (*OK* / *ALERT*), kosteuden (%), valoisuuden (lux) ja ajan edellisestä kastelusta. |
+| **V4: Säädettävät hälytysrajat** | Käyttäjä voi säätää kasvien kosteusrajoja (5 % – 50 %) sivupalkin liukusäätimillä, ja tilat päivittyvät dynaamisesti. |
 | **V5: Trendien visualisointi** | Sovellus esittää 7 päivän sensoritrendit visuaalisessa muodossa
+
+## 4. Rajaus
+* Sisältyy projektiin: Ohjelmallinen sensoridatan simulointi, datan puhdistus, sääntöpohjainen tila-analyysi sekä paikallisesti selaimessa ajettava Streamlit-käyttöliittymä.
+* Ei sisälly projektiin: Fyysinen antureiden kytkentä, automaattinen kastelulaitteisto.
+
+## 5. Keskeinen rakenne
+1. `PlantSimulator.py` (Datan tuotto):** Luo synteettisen 7 päivän aikasarjadatan (`data/raw_sensor_data.csv`) kolmelle kasville mallintaen kuivumisnopeutta, kastelua ja satunnaisia sensorihäiriöitä.
+2. `processor.py` (Esikäsittely):** Lukee raakadatan CSV-tiedostosta ja suodattaa virheelliset mittausarvot.
+3. `analyzer.py` (Analyysi):** Määrittelee oletusraja-arvot (`THRESHOLDS`) ja arvioi kasvien kastelutarpeen kosteushistorian perusteella.
+4. `app.py` (Käyttöliittymä):** Streamlit-sovellus, joka yhdistää dataputken, tarjoaa interaktiiviset kontrollit sivupalkkiin ja piirtää tilakortit sekä trendikuvaajat.
+
+5. ## 6. Oletukset
+* Sovellusta ajetaan paikallisesti Python-ympäristössä, johon on asennettu `streamlit` sekä tarvittavat datankäsittelykirjastot.
+* Simuloitu data edustaa realistisesti kolmen erityyppisen kasvin (*Monstera*, *Cactus*, *Basil*) kosteuskäyttäytymistä yhden viikon jaksolla.
+* Käyttäjä ymmärtää prosentuaalisen kosteusarvon ja lux-yksikön merkityksen kasvien hoidossa.
