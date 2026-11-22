@@ -28,7 +28,7 @@ Smart Plant Monitor tarjoaa selkeän selaimessa toimivan hallintanäkymän, joka
 3. `analyzer.py` (Analyysi):** Määrittelee oletusraja-arvot (`THRESHOLDS`) ja arvioi kasvien kastelutarpeen kosteushistorian perusteella.
 4. `app.py` (Käyttöliittymä):** Streamlit-sovellus, joka yhdistää dataputken, tarjoaa interaktiiviset kontrollit sivupalkkiin ja piirtää tilakortit sekä trendikuvaajat.
 
-5. ## 6. Oletukset
+ ## 6. Oletukset
 * Sovellusta ajetaan paikallisesti Python-ympäristössä, johon on asennettu `streamlit` sekä tarvittavat datankäsittelykirjastot.
 * Simuloitu data edustaa realistisesti kolmen erityyppisen kasvin (*Monstera*, *Cactus*, *Basil*) kosteuskäyttäytymistä yhden viikon jaksolla.
 * Käyttäjä ymmärtää prosentuaalisen kosteusarvon ja lux-yksikön merkityksen kasvien hoidossa.
