@@ -4,4 +4,4 @@ Oikea aikainen kastelu aiheuttaa haasteita huonekasvien hoidossa, etenkin kun er
 
 Smart Plant Monitor tarjoaa selkeän selaimessa toimivan hallintanäkymän, joka muuntaa raa'an sensoridatan ymmärrettäväksi tilannekuvaksi. Sovellus suodattaa datan häiriöt, visualisoi 7 päivän kehitystrendit ja hälyttää automaattisesti, kun kasvin mullan kosteus laskee lajikohtaisen raja-arvon alapuolelle.
 ## 2. Käyttäjäskenaariot
-* **Skenaario 1
+* Skenaario 1 - Kasvien tilan tarkistus: Avaamalla sovelluksen, käyttäjä näkee kaikkien kasvien kosteuden, valaistuksen sekä niiden viimeisen kastelukerran.
