@@ -1,4 +1,4 @@
-# Smart plant monitor
+Sovellus esittää 7 päivän sensoritrendit visuaalisessa muodossa# Smart plant monitor
 ## Tarve ja arvolupas
 Oikea aikainen kastelu aiheuttaa haasteita huonekasvien hoidossa, etenkin kun eri kasveilla on eri kosteusvaatimukset. Liian harva tai liian tiheä kastelu heikentää kasvien hyvinvointia, ja raa'asta sensoridatasta voi olla vaikea havaita poikkeamia tai virhelukemia.
 
@@ -16,4 +16,4 @@ Smart Plant Monitor tarjoaa selkeän selaimessa toimivan hallintanäkymän, joka
 | **V2: Datan esikäsittely** | Järjestelmä lataa raakadatan ja puhdistaa sensorivirheet ennen analyysiä. |
 | **V3: Reaaliaikainen tilanäyttö** | Käyttöliittymä näyttää jokaiselle kasville tilan (*OK* / *ALERT*), kosteuden (%), valoisuuden (lux) ja ajan edellisestä kastelusta[cite: 9]. |
 | **V4: Säädettävät hälytysrajat** | Käyttäjä voi säätää kasvien kosteusrajoja (5 % – 50 %) sivupalkin liukusäätimillä, ja tilat päivittyvät dynaamisesti[cite: 6, 9]. |
-| **V5: Trendien visualisointi** |
+| **V5: Trendien visualisointi** | Sovellus esittää 7 päivän sensoritrendit visuaalisessa muodossa
