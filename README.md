@@ -3,7 +3,8 @@ Leo Cousins, Misto Pantzar
 ## Tarkoitus
 Smart Plant Monitor on Pythonilla ja Streamlitillä toteutettu sovellus huonekasvien (*Monstera*, *Cactus*, *Basil*) kosteus- ja valoisuustietojen simulointiin, puhdistamiseen, analysointiin ja visualisointiin.
 ## Käynnistys
-Vaatii Pyhton 3.9 tai uudemman. kun projetkikansio on auki esim Visual Studiossa, asenna tarvittavat paketit (pandas, pytest ja streamlit). Seuraavaksi, generoi sensoridata komennolla "python src/PlantSimulator.py". Ennen dashboardin käynnistystä, voi testata datan oikeuden ja siivota selvästi virheelliset arvot komennolla "python -m pytest -v". Lopuksi käynnistetään dashboard komennolla "python -m streamlit run src/app.py".
+Vaatii Pyhton 3.9 tai uudemman. 
+Kun projetkikansio on auki esim. Visual Studiossa, asenna tarvittavat paketit (pandas, pytest ja streamlit). Seuraavaksi, generoi sensoridata komennolla "python src/PlantSimulator.py". Ennen dashboardin käynnistystä, voi testata datan oikeuden ja siivota selvästi virheelliset arvot komennolla "python -m pytest -v". Lopuksi käynnistetään dashboard komennolla "python -m streamlit run src/app.py".
 
 ## Käyttö
 Kun sovellus on käynnistetty ja avattu, sitä voidaan käyttää seuraavasti.
