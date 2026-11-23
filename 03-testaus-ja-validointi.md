@@ -6,3 +6,11 @@
 | **T03** | Käyttöliittymän käynnistys ja tilanäyttö | Käynnistetään Streamlit-sovellus (`app.py`) ja avataan `localhost:8501` selaimessa. | Sivu latautuu ja näyttää kasvien tilat (*OK* / *ALERT*), kosteuden, valoisuuden ja edellisen kasteluajan. | Sovellus avautui selaimeen ja näytti *Basil*, *Cactus* ja *Monstera* -kasvien tilatiedot. | Läpäisty |
 | **T04** | Säädettävät hälytysrajat | Säädetään sivupalkin liukusäätimiä (*Moisture Alert Thresholds*). | Kasvien raja-arvot ja kasteluhälytykset päivittyvät näkymään. | Liukusäätimet muuttavat raja-arvoja sivupalkissa ja korttien minimiarvoissa. | Läpäisty[cite: 9] |
 | **T05** | Uuden datan generointi ja trendit | Painetaan *Regenerate Sensor Data* -painiketta ja tarkastellaan *7-Day Sensor Trends* -osiota. | Data luodaan uudelleen ja 7 päivän trendinäkymä on näkyvissä. | Painike ja *7-Day Sensor Trends* -osio ovat näkyvissä käyttöliittymässä. | Läpäisty |
+## Validointi käyttäjätarpeeseen nähden
+Käyttäjän tarve on nähdä huonekasvien kosteus, valaistus ja kastelutarve ilman että sensoridataa tarvitsee tulkita itse.
+
+* **Selkeys ja nopea tilannekuva:** "Current plant status" kohdassa näkyy selkeästi joko hälytystila (ALERT) tai normaalitila (OK). Esimerkiksi jos kasvin kosteus on matala, bäkymä tuo esiin "Needs water" -ilmokituksen.
+* **Joustavuus eri kasveille ja tilanteille**: Eri kasveilla on eri kosteusrajat joita käyttäjä voi itse säätää.
+
+## Tunnetut puutteet
+
