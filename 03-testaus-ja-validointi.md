@@ -14,3 +14,6 @@ Käyttäjän tarve on nähdä huonekasvien kosteus, valaistus ja kastelutarve il
 
 ## Tunnetut puutteet
 
+1. Ei ilmoituksia kuivuvista kasveista, tilanne pitää manuaalisesti tarkistaa.
+2. Pidemmän ajan tai useamman kasvin CSV tiedosto voi alkaa hidastamaan prosessia.
+
