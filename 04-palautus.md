@@ -1,4 +1,4 @@
 ## Palautuspäivä
 24.11.2026
 ## Videolinkki
-https://metropoliafi-my.sharepoint.com/:v:/g/personal/mistop_metropolia_fi/IQADEjg2fJo5TaYGl7wkgLngASBo8IO5GLQQcDLU7CNQ0yM
+https://metropoliafi-my.sharepoint.com/:v:/g/personal/mistop_metropolia_fi/IQADEjg2fJo5TaYGl7wkgLngASBo8IO5GLQQcDLU7CNQ0yM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hF7DuA
