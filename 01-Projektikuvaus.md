@@ -30,5 +30,5 @@ Smart Plant Monitor tarjoaa selkeän selaimessa toimivan hallintanäkymän, joka
 
  ## 6. Oletukset
 * Sovellusta ajetaan paikallisesti Python-ympäristössä, johon on asennettu `streamlit` sekä tarvittavat datankäsittelykirjastot.
-* Simuloitu data edustaa realistisesti kolmen erityyppisen kasvin (*Monstera*, *Cactus*, *Basil*) kosteuskäyttäytymistä yhden viikon jaksolla.
+* Simuloitu data edustaa realistisesti kolmen erityyppisen kasvin (*Basilika*, *Cactus*, *Peikonlehti*) kosteuskäyttäytymistä yhden viikon jaksolla.
 * Käyttäjä ymmärtää prosentuaalisen kosteusarvon ja lux-yksikön merkityksen kasvien hoidossa.
